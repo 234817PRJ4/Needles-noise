@@ -63,3 +63,37 @@ footer a:hover {
 
   font-style: normal; 
 }
+
+
+/* Fonts, colors and corrections for spacing */
+
+.card-title {
+	  font-family: "Rubik Dirt", system-ui; 
+
+  font-weight: 400; 
+
+  font-style: normal; 
+}
+
+.Navcolor {
+  font-family: "Rubik Dirt", system-ui; 
+  font-size: 17px;
+  font-weight: 400; 
+  text-decoration: none;
+  font-style: normal;
+  color: #B21F24;
+  margin-right: 10px;
+}
+	
+.logo {
+  width: 140px; 
+  height: px; 
+	
+}
+
+
+
+
+
+
+
