@@ -86,9 +86,9 @@ footer a:hover {
 }
 	
 .logo {
-  width: 140px; 
+  width: 130px; 
   height: px; 
-	margin-left: -20px;
+	margin-left: -35px;
 }
 
 
@@ -139,4 +139,13 @@ footer a:hover {
 
 .body {
   padding-top: 0px;
+}
+
+.contactphotosmall{
+
+	max-width: 2000px;
+  height: 400px; 
+  object-fit: cover; 
+  object-position: top;
+  overflow: hidden;
 }
