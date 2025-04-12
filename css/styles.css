@@ -3,135 +3,106 @@
 @import url(https://fonts.google.com/specimen/Road+Rage?preview.text=Bobby%20Jones&preview.size=90&categoryFilters=Feeling:%2FExpressive%2FPlayful&query=Ru);
 
 /* Changing the main font and background colour */
-
+/* Main font and background colour */
 body {
-	font-family: Raleway, sans-serif;
-	background-color: #f5f6f6;
+  font-family: Raleway, sans-serif;
+  background-color: #f5f6f6;
 }
 
-/* Changing the background colour for the header */
-
+/* Header and navbar colors */
 header {
-	background-color: #000060;
+  background-color: #000060;
 }
-
-/* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #272727;
+  background-color: #272727;
+  position: relative;
+  z-index: 1000;
 }
 
+/* Footer */
 .footer {
-	background-color: #595959
+  background-color: #595959;
 }
 
-/* Effect on social media buttons */
-
+/* Hover effect on footer links */
 footer a:hover {
-	opacity: .5;
+  opacity: 0.5;
 }
 
-/* Corporate navbar */
-
+/* Corporate navbar active link */
 #navbar-corporate a.active {
-	color: #800000;
-	font-weight: bold;
+  color: #800000;
+  font-weight: bold;
 }
 
-/* Hero Section shadow */
-
+/* Text shadow effect */
 .white-shadow {
-	text-shadow: -.01em -.01em .01em white,
-		.02em .02em .02em white,
-		0 0 .2em white,
-		0 0 .5em white;
-}
-.rubik-dirt-regular { 
-
-  font-family: "Rubik Dirt", system-ui; 
-
-  font-weight: 400; 
-
-  font-style: normal; 
-
-} 
-
-.card-title {
-	  font-family: "Rubik Dirt", system-ui; 
-
-  font-weight: 400; 
-
-  font-style: normal; 
+  text-shadow: -0.01em -0.01em 0.01em white,
+               0.02em 0.02em 0.02em white,
+               0 0 0.2em white,
+               0 0 0.5em white;
 }
 
-
-/* Fonts, colors and corrections for spacing yeah */
-
-.card-title {
-	  font-family: "Rubik Dirt", system-ui; 
-
-  font-weight: 400; 
-
-  font-style: normal; 
-}
-
-.navcolor {
-  font-family: "Rubik Dirt", system-ui; 
-  font-size: 17px;
-  font-weight: 400; 
-  text-decoration: none;
+/* Font styles */
+.rubik-dirt-regular,
+.card-title,
+.navcolor,
+.boldtext,
+.subtitle-text {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
   font-style: normal;
+}
+
+/* Card title again (duplicated above, can be removed if unnecessary) */
+.card-title {
+  font-size: 1.5rem;
+}
+
+/* Navbar link style */
+.navcolor {
+  font-size: 17px;
+  text-decoration: none;
   color: #B21F24;
   margin-right: 10px;
 }
-	
+
+/* Logo styling */
 .logo {
-  width: 130px; 
-  height: px; 
-	margin-left: -35px;
+  width: 130px;
+  height: auto;
+  margin-left: -35px;
 }
 
-
 .logoalignmenthome {
-
   position: relative;
-  z-index: 1100;  
-  width: 100%; 
+  z-index: 1100;
+  width: 100%;
   max-width: 200px;
-  height: auto; 
+  height: auto;
   display: block;
   margin: 0 auto;
 }
 
-
-
+/* Main heading */
 .boldtext {
-	font-family: "Rubik Dirt", system-ui; 
   font-size: 30px;
-  font-weight: 400; 
-  text-decoration: none;
-  font-style: normal;
   color: #000000;
-	
-	
+  text-decoration: none;
 }
 
+/* Toggler color */
 .togglercolor {
-	
-	color: #B21F24;
-		
+  color: #B21F24;
 }
 
+/* Toggler icon override for custom stroke color */
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23B21F24' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-.navbar {
-  position: relative;
-  z-index: 1000; 
-}
-
-
+/* General main padding */
 .main {
   text-align: center;
   padding: 20px;
@@ -141,26 +112,46 @@ footer a:hover {
   padding-top: 0px;
 }
 
-.contactphotosmall{
-
-	max-width: 2000px;
-  height: 400px; 
-  object-fit: cover; 
+/* Contact image styling */
+.contactphotosmall {
+  max-width: 2000px;
+  height: 400px;
+  object-fit: cover;
   object-position: top;
   overflow: hidden;
 }
 
+/* Subtitle styling */
 .subtitle-text {
-    font-family: "Rubik Dirt", system-ui;
-    font-size: x-large;
-    text-align: center;
+  font-size: x-large;
+  text-align: center;
 }
 
+/* Centering utility */
 .align-items-center {
-    text-align: center;	
+  text-align: center;
 }
 
-section video {
+/* --- 🎥 Video Banner Styles --- */
+.banner-section {
+  position: relative;
+  width: 100%;
   height: 100vh;
+  overflow: hidden;
+}
+
+.banner-section video {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: white;
+  text-align: center;
 }
