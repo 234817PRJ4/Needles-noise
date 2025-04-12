@@ -149,3 +149,13 @@ footer a:hover {
   object-position: top;
   overflow: hidden;
 }
+
+.subtitle-text {
+    font-family: "Rubik Dirt", system-ui;
+    font-size: x-large;
+    text-align: center;
+}
+
+.align-items-center {
+    text-align: center;	
+}
