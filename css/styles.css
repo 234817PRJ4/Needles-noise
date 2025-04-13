@@ -81,7 +81,7 @@ footer a:hover {
   position: relative;
   z-index: 1100;
   width: 100%;
-  max-width: 200px;
+  max-width: 600px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -184,4 +184,21 @@ footer a:hover {
 
 .img-size{
     height: 200px;	
+}
+
+.bg-dark-rock {
+  background-color: #333333;
+  color: white;
+}
+
+.containertitle {
+	font-family: 'Rubik Dirt', cursive;
+	color: #b3001b;
+	font-size: 2.5rem;
+}
+
+.containertext {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25rem;
+  word-spacing: 0.1em;
 }
