@@ -78,7 +78,37 @@
 		 <!-- End of navigation bar -->
 
 <section class="container my-4">
-
+<div class="image-container"> <nav aria-label="...">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <span class="page-link">Previous</span>
+    </li>
+    <li class="page-item"><a class="page-link" href="">1</a></li>
+    <li class="page-item active" aria-current="page">
+      <span class="page-link">2</span>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+	<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src="..." class="rounded me-2" alt="...">
+    <strong class="me-auto">Bootstrap</strong>
+    <small>11 mins ago</small>
+    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+  </div>
+</div>
+	
+	
+  <img src="images/artist tattoo designs/people-2598359_1280.jpg" class="img-fluid" alt="...">
+  <div class="centered-text">Crafted for You. Inked by the Best.</div>
+</div>
   </section>
   <!-- A grid with cards
       Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/
@@ -86,258 +116,81 @@
     -->
 <main class="container my-4">
   <div class="row g-3 justify-content-evenly">
-
-        <!-- Card #1 -->
+	  
 <div class="card" style="width: 18rem;">
-  <!-- Carousel for images -->
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/artist photos/cassandra.jpeg" class="d-block w-100" alt="Brianna photo">
-      </div>
-      <div class="carousel-item">
-        <img src="images/artist tattoo designs/woman-4123270_1280.jpg" class="d-block w-100" alt="Another photo">
-      </div>
-      <div class="carousel-item">
-        <img src="images/artist tattoo designs/woman-4123270_1280.jpg" class="d-block w-100" alt="Another photo">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <!-- Card content -->
+  <img src="images/artist photos/cassandra.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Brianna van der Horst</h5>
-    <p class="card-text">Hi! Nice to meet you! I am Brianna, a tattoo artist based in Rotterdam. Excited to work on your future design? Click the link to my bio!</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Price: €25</li>
-    <li class="list-group-item">Based in: Rotterdam</li>
-    <li class="list-group-item">15 Years of experience</li>
-  </ul>
-  <div class="card-body">
-    <a href="artistmoreinfopage.html" class="btn btn-primary">View their work</a>
-    <a href="#" class="btn btn-secondary">Contact</a>
+    <h5 class="card-title">Cassandra Creuz</h5>
+    <p class="card-text">Hi! Nice to meet you! I am Cassandra, a tattoo artist based in Rotterdam. Excited to work on your future design? Click the link to my bio or contact me!</p>
+    <a href="myworkpageartist.html" class="btn btn-primary">View their work</a>
+    <a href="artistmoreinfopage.html" class="btn btn-secondary">Contact</a>
   </div>
 </div>
-
-		  
-        <!-- Card #2 -->
-<div class="card" style="width: 18rem;">
-  <!-- Carousel for images -->
-  <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/artist photos/hanne.jpeg" class="d-block w-100" alt="Brianna photo">
-      </div>
-      <div class="carousel-item">
-        <img src="images/artist tattoo designs/man-890887_1280.jpg" class="d-block w-100" alt="Another photo">
-      </div>
-      <div class="carousel-item">
-        <img src="images/artist tattoo designs/man-890887_1280.jpg" class="d-block w-100" alt="Another photo">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <!-- Card content -->
-  <div class="card-body">
-    <h5 class="card-title">Hanne Lindahl</h5>
-    <p class="card-text">Hi! Nice to meet you! I am Brianna, a tattoo artist based in Rotterdam. Excited to work on your future design? Click the link to my bio!</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Price: €25</li>
-    <li class="list-group-item">Based in: Rotterdam</li>
-    <li class="list-group-item">15 Years of experience</li>
-  </ul>
-  <div class="card-body">
-    <a href="artistmoreinfopage.html" class="btn btn-primary">View their work</a>
-    <a href="#" class="btn btn-secondary">Contact</a>
-  </div>
-</div>
-
-        <!-- Card #3 -->
         
-<div class="card" style="width: 18rem;">
-  <!-- Carousel for images -->
-  <div id="carouse3" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/artist photos/justin.jpeg" class="d-block w-100" alt="Brianna photo">
-      </div>
-      <div class="carousel-item">
-        <img src="images/artist tattoo designs/woman-9450191_1280.webp" class="d-block w-100" alt="Another photo">
-      </div>
-      <div class="carousel-item">
-        <img src="images/artist tattoo designs/man-890887_1280.jpg" class="d-block w-100" alt="Another photo">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <!-- Card content -->
+	  <div class="card" style="width: 18rem;">
+  <img src="images/artist photos/clairetat.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Justin Rober</h5>
-    <p class="card-text">Hi! Nice to meet you! I am Brianna, a tattoo artist based in Rotterdam. Excited to work on your future design? Click the link to my bio!</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Price: €25</li>
-    <li class="list-group-item">Based in: Rotterdam</li>
-    <li class="list-group-item">15 Years of experience</li>
-  </ul>
-  <div class="card-body">
-    <a href="artistmoreinfopage.html" class="btn btn-primary">View their work</a>
-    <a href="#" class="btn btn-secondary">Contact</a>
+    <h5 class="card-title">Claire Moon</h5>
+    <p class="card-text">Hi! Nice to meet you! I am Claire, a tattoo artist based in Rotterdam. Excited to work on your future design? Click the link to my bio or contact me!</p>
+    <a href="myworkpageartist.html" class="btn btn-primary">View their work</a>
+    <a href="artistmoreinfopage.html" class="btn btn-secondary">Contact</a>
   </div>
 </div>
-
-        <!-- Card #4 -->
+        <div class="card" style="width: 18rem;">
+  <img src="images/artist photos/cassandra.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cassandra Creuz</h5>
+    <p class="card-text">Hi! Nice to meet you! I am Cassandra, a tattoo artist based in Rotterdam. Excited to work on your future design? Click the link to my bio or contact me!</p>
+    <a href="myworkpageartist.html" class="btn btn-primary">View their work</a>
+    <a href="artistmoreinfopage.html" class="btn btn-secondary">Contact</a>
+  </div>
+</div>
+        <div class="card" style="width: 18rem;">
+  <img src="images/artist photos/cassandra.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cassandra Creuz</h5>
+    <p class="card-text">Hi! Nice to meet you! I am Cassandra, a tattoo artist based in Rotterdam. Excited to work on your future design? Click the link to my bio or contact me!</p>
+    <a href="myworkpageartist.html" class="btn btn-primary">View their work</a>
+    <a href="artistmoreinfopage.html" class="btn btn-secondary">Contact</a>
+  </div>
+</div>
+        <div class="card" style="width: 18rem;">
+  <img src="images/artist photos/cassandra.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cassandra Creuz</h5>
+    <p class="card-text">Hi! Nice to meet you! I am Cassandra, a tattoo artist based in Rotterdam. Excited to work on your future design? Click the link to my bio or contact me!</p>
+    <a href="myworkpageartist.html" class="btn btn-primary">View their work</a>
+    <a href="artistmoreinfopage.html" class="btn btn-secondary">Contact</a>
+  </div>
+</div>
+        <div class="card" style="width: 18rem;">
+  <img src="images/artist photos/cassandra.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cassandra Creuz</h5>
+    <p class="card-text">Hi! Nice to meet you! I am Cassandra, a tattoo artist based in Rotterdam. Excited to work on your future design? Click the link to my bio or contact me!</p>
+    <a href="myworkpageartist.html" class="btn btn-primary">View their work</a>
+    <a href="artistmoreinfopage.html" class="btn btn-secondary">Contact</a>
+  </div>
+</div>
+        <div class="card" style="width: 18rem;">
+  <img src="images/artist photos/cassandra.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cassandra Creuz</h5>
+    <p class="card-text">Hi! Nice to meet you! I am Cassandra, a tattoo artist based in Rotterdam. Excited to work on your future design? Click the link to my bio or contact me!</p>
+    <a href="myworkpageartist.html" class="btn btn-primary">View their work</a>
+    <a href="artistmoreinfopage.html" class="btn btn-secondary">Contact</a>
+  </div>
+</div>
+        <div class="card" style="width: 18rem;">
+  <img src="images/artist photos/cassandra.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cassandra Creuz</h5>
+    <p class="card-text">Hi! Nice to meet you! I am Cassandra, a tattoo artist based in Rotterdam. Excited to work on your future design? Click the link to my bio or contact me!</p>
+    <a href="myworkpageartist.html" class="btn btn-primary">View their work</a>
+    <a href="artistmoreinfopage.html" class="btn btn-secondary">Contact</a>
+  </div>
+</div>
         
-<div class="card" style="width: 18rem;">
-  <!-- Carousel for images -->
-  <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/artist photos/mariejane.jpeg" class="d-block w-100" alt="Brianna photo">
-      </div>
-      <div class="carousel-item">
-        <img src="images/artist tattoo designs/woman-4123270_1280.jpg" class="d-block w-100" alt="Another photo">
-      </div>
-      <div class="carousel-item">
-        <img src="images/artist tattoo designs/man-890887_1280.jpg" class="d-block w-100" alt="Another photo">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <!-- Card content -->
-  <div class="card-body">
-    <h5 class="card-title">Marie-Jane&nbsp;</h5>
-    <p class="card-text">Hi! Nice to meet you! I am Brianna, a tattoo artist based in Rotterdam. Excited to work on your future design? Click the link to my bio!</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Price: €25</li>
-    <li class="list-group-item">Based in: Rotterdam</li>
-    <li class="list-group-item">15 Years of experience</li>
-  </ul>
-  <div class="card-body">
-    <a href="artistmoreinfopage.html" class="btn btn-primary">View their work</a>
-    <a href="#" class="btn btn-secondary">Contact</a>
-  </div>
-</div>
-
-        <!-- Card #5 -->
-        
-<div class="card" style="width: 18rem;">
-  <!-- Carousel for images -->
-  <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/artist photos/mark.jpeg" class="d-block w-100" alt="Brianna photo">
-      </div>
-      <div class="carousel-item">
-        <img src="images/artist tattoo designs/woman-4123270_1280.jpg" class="d-block w-100" alt="Another photo">
-      </div>
-      <div class="carousel-item">
-        <img src="images/artist tattoo designs/man-890887_1280.jpg" class="d-block w-100" alt="Another photo">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <!-- Card content -->
-  <div class="card-body">
-    <h5 class="card-title">Mark Vany</h5>
-    <p class="card-text">Hi! Nice to meet you! I am Brianna, a tattoo artist based in Rotterdam. Excited to work on your future design? Click the link to my bio!</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Price: €25</li>
-    <li class="list-group-item">Based in: Rotterdam</li>
-    <li class="list-group-item">15 Years of experience</li>
-  </ul>
-  <div class="card-body">
-    <a href="artistmoreinfopage.html" class="btn btn-primary">View their work</a>
-    <a href="#" class="btn btn-secondary">Contact</a>
-  </div>
-</div>
-
-        <!-- Card #6 -->
-        
-<div class="card" style="width: 18rem;">
-  <!-- Carousel for images -->
-  <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/artist photos/thispersondoesnotexist.com-6.jpeg" class="d-block w-100" alt="Brianna photo">
-      </div>
-      <div class="carousel-item">
-        <img src="images/artist tattoo designs/woman-4123270_1280.jpg" class="d-block w-100" alt="Another photo">
-      </div>
-      <div class="carousel-item">
-        <img src="images/artist tattoo designs/man-890887_1280.jpg" class="d-block w-100" alt="Another photo">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <!-- Card content -->
-  <div class="card-body">
-    <h5 class="card-title">Cees de Vries</h5>
-    <p class="card-text">Hi! Nice to meet you! I am Brianna, a tattoo artist based in Rotterdam. Excited to work on your future design? Click the link to my bio!</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Price: €25</li>
-    <li class="list-group-item">Based in: Rotterdam</li>
-    <li class="list-group-item">15 Years of experience</li>
-  </ul>
-  <div class="card-body">
-    <a href="artistmoreinfopage.html" class="btn btn-primary">View their work</a>
-    <a href="#" class="btn btn-secondary">Contact</a>
-  </div>
-</div>
-
         <!-- That was the last card -->
 
       </div>
