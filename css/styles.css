@@ -273,3 +273,14 @@ footer a:hover {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 
 }
+
+.image-crop-container {
+  height: 80%; /* or use px like 500px */
+  max-height: 400px; /* this is where the bottom gets cropped */
+  overflow: hidden;
+}
+
+.cropped-image {
+  width: 100%;
+  display: block;
+}
