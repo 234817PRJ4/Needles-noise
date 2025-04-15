@@ -254,12 +254,11 @@ footer a:hover {
 	font-size: 1.1rem;
 }
 
-<<<<<<< HEAD
 .footertext {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.1rem;
 }
-=======
+
 .image-container {
   position: relative;
   display: inline-block;
@@ -290,4 +289,3 @@ footer a:hover {
   width: 100%;
   display: block;
 }
->>>>>>> 5cde64b48456c53d2712bc3b16184d6bbf570ff8
