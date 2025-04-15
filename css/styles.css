@@ -254,7 +254,40 @@ footer a:hover {
 	font-size: 1.1rem;
 }
 
+<<<<<<< HEAD
 .footertext {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.1rem;
 }
+=======
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.centered-text {
+   font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+ 
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+
+}
+
+.image-crop-container {
+  height: 80%; /* or use px like 500px */
+  max-height: 400px; /* this is where the bottom gets cropped */
+  overflow: hidden;
+}
+
+.cropped-image {
+  width: 100%;
+  display: block;
+}
+>>>>>>> 5cde64b48456c53d2712bc3b16184d6bbf570ff8
