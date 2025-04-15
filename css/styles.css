@@ -202,3 +202,90 @@ footer a:hover {
   font-size: 1.25rem;
   word-spacing: 0.1em;
 }
+
+.accordion-custom .card {
+  background-color: rgba(51, 51, 51, 0.95); /* #333333 with slight transparency */
+  border: none;
+  color: white;
+  text-align: left;
+}
+
+.accordion-custom .card-header {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+}
+
+.accordion-custom .card-body {
+  background-color: transparent;
+  text-align: left;
+  color: #f1f1f1; /* Slightly lighter for readability */
+}
+
+.accordion-custom .btn {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+}
+
+.accordion-custom .btn:hover {
+  color: #ccc;
+}
+
+.titletext-values {
+	font-family: 'Rubik Dirt', cursive;
+	font-size: 2.5rem;
+}
+
+.subtitle-values {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.1rem;
+}
+
+.accordion-title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.25rem;
+}
+.accordion-text {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.1rem;
+}
+
+.footertext {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.1rem;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.centered-text {
+   font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+ 
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+
+}
+
+.image-crop-container {
+  height: 80%; /* or use px like 500px */
+  max-height: 400px; /* this is where the bottom gets cropped */
+  overflow: hidden;
+}
+
+.cropped-image {
+  width: 100%;
+  display: block;
+}
