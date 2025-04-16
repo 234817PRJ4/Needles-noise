@@ -5,78 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Own Styles add all the fonts here and their html codes described at the google font pageee -->
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/styles.css">
-<!-- font one Dirt-->
-	  <link rel="preconnect" href="https://fonts.googleapis.com"> 
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet"> 
-	  
-	  <!-- font two ....-->
-	  
-	  <!-- font one Three-->
-	  
-	  
-	  
-	  
-	  <!-- end of own styles-->
-	  
-	  
-	  
-	  
-    <!-- Bootstrap Javascript -->
-	 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <title>PRJ4 Base Group Template &mdash; Landing Page</title>
+     <title>Needles&amp;Noise &mdash; Homepage </title>
 
-    <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
-	  
-	  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CGZ21EVN6C"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CGZ21EVN6C');
-</script>
-
-    <!-- End of Google Analytics code -->
-
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CGZ21EVN6C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CGZ21EVN6C');
+    </script>
   </head>
-  <body class="h-100 d-flex flex-column">
 
-    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-	  
+  <body class="d-flex flex-column">
+
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-			
-          <img src="images/logowhite.svg" class="logo" alt="needlesandnoiselogoleft">
+          <img src="images/logowhite.svg" class="logo" alt="logo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span  class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="navcolor" href="index.html">Home</a>
-            </li>
-			  <li class="nav-item">
-              <a class="navcolor active" href="catalogue.html" aria-current="page">Catalogue</a>
-            </li>
+            <li class="nav-item"><a class="navcolor" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="navcolor active" href="catalogue.html">Catalogue</a></li>
             <li class="nav-item dropdown">
-              <a class="navcolor dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                About Us
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="navcolor dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">About Us</a>
+              <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="event.html">Events</a></li>
                 <li><a class="dropdown-item" href="meetteam.html">Meet the Team</a></li>
                 <li><hr class="dropdown-divider"></li>
@@ -84,36 +57,106 @@
                 <li><a class="dropdown-item" href="contact.html">Contacts</a></li>
               </ul>
             </li>
-
-            <li class="nav-item">
-              <a class="navcolor" href="corporate.html">Corporate</a>
-            </li>
+            <li class="nav-item"><a class="navcolor" href="corporate.html">Corporate</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- End of navigation bar -->
 
-    <!-- Start of main placeholder in landing page -->
-    <main class="h-100 d-flex flex-column justify-content-center align-items-center px-3">
-		<img src="images/slide-3.jpg" class="img-fluid" alt="...">
-		
-		
-		 <!-- end whitespace  -->
-		
-		
-      <img class="img-fluid logoalignmenthome" src="images/logoblack.svg" alt="needlesandnoisepagelogo">
-		
-      <h1 class="boldtext fs-1 fs-md-1 fs-sm-3" >Needles&amp;Noise</h1>
-      <h5 class="fst-italic mb-5">text what our brand is about.... elvira if you add a picture choose the black or white logo in the html&nbsp;&nbsp;</h5>
-      <div class="container text-center mt-4">
-        <p>This is a page you can use as aaa placeholder for your future website.</p>
-        <p>Once published (which should be at the end of week 5 of the project), it can be fully integrated within your marketing campaign.</p>
-        <p>You will then replace this landing page by a full website.</p>
-        <p>To build your website, you can start with the <a href="example.html">example</a> or pick and mix elements from the UX pattern pages of this website (check menu above).</p>
+    <!-- Hero Banner with Video -->
+    <section class="banner-section">
+      <video autoplay muted loop playsinline>
+        <source src="video/banner-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="banner-overlay position-absolute top-50 start-50 translate-middle text-center text-white">
+        <h1 class="banner-title">Needles &amp; Noise</h1>
+        <p class="banner-subtitle">Rock your tattoos!</p>
       </div>
-    </main>
-    <!-- End of main placeholder -->
+    </section>
 
+    <!-- Main Section -->
+    <main class="d-flex flex-column justify-content-center align-items-center px-3">
+      <img class="img-fluid logoalignmenthome" src="images/logoblack.svg" alt="page logo">
+      <div class="container-fluid py-5 bg-dark-rock">
+		  <div class="row justify-content-center">
+			<div class="col-md-10 col-lg-8 text-center">
+			  <h2 class="mb-4 containertitle">What We Do?</h2>
+			  <p class="lead containertext">
+				Needles &amp; Noise is the go-to platform for tattoo enthusiasts and artists to connect and create pieces inspired by their shared passion for hard rock and art. 
+				Here, you can find inspiration for your own unique designs, browse artist catalogs, and discover the one whose style speaks to you. 
+				It's easy — just find your artist, connect, book, and rock on.
+			  </p>
+			</div>
+		  </div>
+		</div>
+		<div class="container mt-3">
+		  <h2 class = "titletext-values">Our Values&nbsp;</h2>
+		  <p class = "subtitle-values"> Our  platform is built to connect through the same values that fuel rock fans—<strong>raw passion</strong>, <strong> real connection</strong>, and a love for <strong> bold expression </strong>.  Every word we use is chosen to bring that vision to life and speak directly to the heart of the rock community. Giving a stage to rock-inspired tattoo artists isn’t just something we do—it’s something we believe in.
+That’s why the values on our website aren’t just words—they’re the backbone of everything we stand for.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
+		  <div id="accordion" class="accordion-custom">
+			<div class="card">
+			  <div class="card-header">
+				<a class="btn accordion-title" data-bs-toggle="collapse" href="#collapseOne">
+			    Authenticity&nbsp; </a>
+			  </div>
+			  <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+				<div class="card-body accordion-text">
+				 We appreciate the freedom to be yourself and reject mainstream norms
+				</div>
+			  </div>
+			</div>
+			<div class="card">
+			  <div class="card-header">
+				<a class="collapsed btn accordion-title " data-bs-toggle="collapse" href="#collapseTwo">
+				Individuality&nbsp; </a>
+			  </div>
+			  <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+				<div class="card-body accordion-text">
+				 Hard rock celebrates individuality. Tattoos are the prime example of personal expression.
+				</div>
+			  </div>
+			</div>
+			<div class="card">
+			  <div class="card-header">
+				<a class="collapsed btn accordion-title" data-bs-toggle="collapse" href="#collapseThree">
+				 Sense of community 
+				</a>
+			  </div>
+			  <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+				<div class="card-body accordion-text">
+				  We believe in forming deep connections through shared interests, attending concerts, and participating in discussions. We want to give back to the community and the artists in it.  
+				</div>
+			  </div>
+			</div>
+			  <div class="card">
+			  <div class="card-header">
+				<a class="collapsed btn accordion-title" data-bs-toggle="collapse" href="#collapseFour">
+				  Uplifting small artists
+				</a>
+			  </div>
+			  <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+				<div class="card-body accordion-text">
+				  We focus on supporting small artists. We reject commercialized art and don't believe in big brands.
+				</div>
+			  </div>
+			</div>
+		  </div>
+	  </div>
+    </main>
+ <footer class="shadow-lg mt-auto py-4 bg-body">
+      <div class="container d-flex justify-content-between align-items-center">
+        <p class="footertext">
+          © 2024–2025 — Needles &amp; Noise
+        </p>
+        <ul class="list-unstyled d-flex align-items-center opacity-75">
+          <li>
+            <a href="https://www.instagram.com/needles.and.noise/" target="_blank">
+              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
+            </a>
+			  </li>
+		  </ul>
+			</div>	
+  </footer>
   </body>
 </html>
